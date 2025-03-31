@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.login-container {
+  width: 320px;
+  height: 314px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-title {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  color: black;
+  font-family: "Plus Jakarta Sans", sans-serif;
+
+  margin-bottom: 24px;
+}
+
+.input-container {
+  width: 320px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.login-input {
+  width: 320px;
+  height: 48px;
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.login-button {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(43, 58, 103, 1);
+  gap: 8px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 16px 24px;
+}
+
+.login-button:hover {
+  background-color: rgba(30, 45, 85, 1);
+}
+
+.register-link {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.register-button {
+  background-color: rgba(43, 58, 103, 1);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.register-button:hover {
+  background-color: rgba(30, 45, 85, 1);
+}

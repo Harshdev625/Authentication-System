@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.register-container {
+  width: 320px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-title {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38px;
+  color: black;
+  margin-bottom: 24px;
+}
+
+.input-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.register-input {
+  width: 100%;
+  height: 48px;
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.register-input:focus {
+  border-color: rgba(43, 58, 103, 1);
+  outline: none;
+}
+
+.register-button {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(43, 58, 103, 1);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 16px 24px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.register-button:hover {
+  background-color: rgba(30, 45, 85, 1);
+}
+
+.login-link {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.login-button {
+  background-color: rgba(43, 58, 103, 1);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.login-button:hover {
+  background-color: rgba(30, 45, 85, 1);
+}
